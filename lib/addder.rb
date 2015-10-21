@@ -2,6 +2,6 @@ require "addder/version"
 
 module Addder
   def self.add(*args)
-    return args.reduce(:+)
+    args.reduce(:+)
   end
 end
